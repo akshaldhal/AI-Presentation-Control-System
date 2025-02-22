@@ -1,4 +1,5 @@
 from sentence_transformers import SentenceTransformer
+import .summarize
 
 embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
 
